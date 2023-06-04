@@ -16,6 +16,26 @@
     border: solid 1px black;
 }
 
+.reset {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(93, 93, 226, 0.4);
+    border: none;
+    border-radius: 8px;
+}
+
+.reset:hover {
+    background-color: rgba(93, 93, 226, 0.6)
+}
+
+.reset:active {
+    transform: translateY(1px);
+}
+
+.message {
+    font-size: 20px;
+}
+
 .square {
     width: 100px;
     height: 100px;
